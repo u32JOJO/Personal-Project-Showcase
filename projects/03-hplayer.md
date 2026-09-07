@@ -134,10 +134,14 @@ GUI       Qt 5.12（QImageWnd / QPainter）
 语言      C++
 ```
 
-<!-- 素材占位：
-![CPU 占用对比](../assets/03-hplayer/cpu-before-after.png)
-![播放效果](../assets/03-hplayer/playback.jpg)
--->
+## 项目图集
+
+<div align="center">
+<img src="../assets/03-hplayer/fig-16.jpeg" width="46%" />
+<img src="../assets/03-hplayer/fig-17.jpeg" width="46%" />
+</div>
+
+<!-- TODO: 补充每张图的具体说明（播放效果 / CPU 占用对比等） -->
 
 ---
 

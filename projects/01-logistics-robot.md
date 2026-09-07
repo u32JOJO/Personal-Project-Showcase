@@ -201,11 +201,18 @@ MCU       STM32F4（Cortex-M4 + FPU）、标准库 + ARM DSP 库
 语言      C
 ```
 
-<!-- 素材占位：
-![整车照片](../assets/01-logistics/robot-photo.jpg)
-![五次插值轨迹](../assets/01-logistics/trajectory.png)
-![搬运演示](../assets/01-logistics/demo.gif)
--->
+## 项目图集
+
+<div align="center">
+<img src="../assets/01-logistics/fig-01.png" width="46%" />
+<img src="../assets/01-logistics/fig-02.png" width="46%" />
+<img src="../assets/01-logistics/fig-03.png" width="46%" />
+<img src="../assets/01-logistics/fig-04.png" width="46%" />
+<img src="../assets/01-logistics/fig-05.png" width="46%" />
+<img src="../assets/01-logistics/fig-06.png" width="46%" />
+</div>
+
+<!-- TODO: 补充每张图的具体说明（整车照片 / 架构图 / 轨迹曲线等） -->
 
 ---
 
