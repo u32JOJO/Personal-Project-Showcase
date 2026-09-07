@@ -1,0 +1,60 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 编译产物
+build/
+dist/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.a
+*.so
+*.ko
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# 日志与临时文件
+*.log
+logs/
+tmp/
+temp/
+
+# 大文件素材（按需单独用 Git LFS 管理）
+*.mp4
+*.avi
+*.mov
+*.mkv
+# 注意：截图与 GIF 建议保留在 assets/ 下，单个文件不超过 5 MB
+# *.png
+# *.jpg
+# *.gif
+
+# 敏感信息（严禁提交）
+.env
+*.key
+*.pem
+*credential*
+*password*
+*secret*
