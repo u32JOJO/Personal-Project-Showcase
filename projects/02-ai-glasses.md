@@ -1,4 +1,4 @@
-# 04 · 智能 AI 眼镜嵌入式软件系统
+# 02 · 智能 AI 眼镜嵌入式软件系统
 
 > **类型**：项目交付 ｜ **角色**：嵌入式软件核心开发 ｜ **周期**：2025.04 – 2025.07
 > **场景**：基于 ESP32-IDF 构建智能 AI 眼镜嵌入式软件系统，实现
@@ -152,8 +152,8 @@ stateDiagram-v2
 ```
 
 <!-- 素材占位：
-![管道切换流程](../assets/04-ai-glasses/pipeline-switch.png)
-![BLE 配网交互](../assets/04-ai-glasses/ble-provisioning.png)
+![管道切换流程](../assets/02-ai-glasses/pipeline-switch.png)
+![BLE 配网交互](../assets/02-ai-glasses/ble-provisioning.png)
 -->
 
 ---

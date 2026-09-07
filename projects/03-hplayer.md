@@ -1,4 +1,4 @@
-# 05 · hplayer 嵌入式播放器移植与优化
+# 03 · hplayer 嵌入式播放器移植与优化
 
 > **类型**：个人项目 ｜ **角色**：独立开发 ｜ **周期**：2025.09 – 2025.11
 > **场景**：将开源 Qt + FFmpeg 播放器 hplayer 移植到 **NXP i.MX6ULL**（无 GPU、
@@ -135,8 +135,8 @@ GUI       Qt 5.12（QImageWnd / QPainter）
 ```
 
 <!-- 素材占位：
-![CPU 占用对比](../assets/05-hplayer/cpu-before-after.png)
-![播放效果](../assets/05-hplayer/playback.jpg)
+![CPU 占用对比](../assets/03-hplayer/cpu-before-after.png)
+![播放效果](../assets/03-hplayer/playback.jpg)
 -->
 
 ---

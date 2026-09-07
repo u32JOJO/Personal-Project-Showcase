@@ -1,4 +1,4 @@
-# 03 · 物流搬运复合机器人
+# 01 · 物流搬运复合机器人
 
 > **类型**：团队项目 ｜ **角色**：嵌入式软件核心开发 ｜ **周期**：2024.09 – 2025.03
 > **场景**：基于 STM32F4 开发自动化物料搬运加工复合机器人控制系统，
@@ -202,9 +202,9 @@ MCU       STM32F4（Cortex-M4 + FPU）、标准库 + ARM DSP 库
 ```
 
 <!-- 素材占位：
-![整车照片](../assets/03-logistics/robot-photo.jpg)
-![五次插值轨迹](../assets/03-logistics/trajectory.png)
-![搬运演示](../assets/03-logistics/demo.gif)
+![整车照片](../assets/01-logistics/robot-photo.jpg)
+![五次插值轨迹](../assets/01-logistics/trajectory.png)
+![搬运演示](../assets/01-logistics/demo.gif)
 -->
 
 ---
