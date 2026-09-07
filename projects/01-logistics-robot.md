@@ -203,13 +203,35 @@ MCU       STM32F4（Cortex-M4 + FPU）、标准库 + ARM DSP 库
 
 ## 项目图集
 
-<div align="center">
-<img src="../assets/01-logistics/fig-01.png" width="46%" />
-<img src="../assets/01-logistics/fig-02.png" width="46%" />
-<img src="../assets/01-logistics/fig-03.png" width="46%" />
-<img src="../assets/01-logistics/fig-04.png" width="46%" />
-<img src="../assets/01-logistics/fig-05.png" width="46%" />
-<img src="../assets/01-logistics/fig-06.png" width="46%" />
-</div>
-
-<!-- TODO: 补充每张图的具体说明（整车照片 / 架构图 / 轨迹曲线等） -->
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-01.png" width="90%" /><br/>
+      <sub><b>图 1</b> · 主控板 PCB 俯视图</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-02.png" width="90%" /><br/>
+      <sub><b>图 2</b> · 代码文件结构（SYSTEM → HARDWARE → KINEMATICS → USER 四层）</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-03.png" width="90%" /><br/>
+      <sub><b>图 3</b> · 五次插值输入节点结构体 <code>_input_li5_t</code></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-04.png" width="90%" /><br/>
+      <sub><b>图 4</b> · 五次插值输出与队列结构体（a0~a5 + task 指针）</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-05.png" width="90%" /><br/>
+      <sub><b>图 5</b> · 路径队列结构体 <code>path_queue_t</code></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="../assets/01-logistics/fig-06.png" width="90%" /><br/>
+      <sub><b>图 6</b> · 节点任务类型与流程定义（直线 / 圆弧 / 加工区）</sub>
+    </td>
+  </tr>
+</table>
