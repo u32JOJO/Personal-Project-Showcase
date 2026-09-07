@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Qiao Tianyu (乔天宇)
+Copyright (c) 2026 Qiao Tianyu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-注意 / Note:
-
-本仓库仅包含项目文档（Markdown）、架构图与示意素材，不包含任何源代码、
-内部技术资料、设备凭据或未公开数据。企业项目的知识产权归原单位所有。
-
-This repository contains documentation only. No source code, proprietary
-materials, credentials, or unpublished data are included. Intellectual
-property of enterprise projects belongs to the respective employers.
