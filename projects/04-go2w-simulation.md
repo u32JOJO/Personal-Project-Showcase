@@ -11,7 +11,7 @@
 
 ### 精简展示 · 48.5 秒
 
-[![Go2W 单台恢复近景，点击观看精简演示](../assets/04-go2w/cover.png)](https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5)
+![Go2W 单台恢复近景](../assets/04-go2w/cover.png)
 
 <!-- go2w-showcase-player:start -->
 
@@ -21,7 +21,9 @@ https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
 
 内容依次为单台近景、百台第 1 / 3 轮精选、单独标注的自然跌落探索。
 
-### 完整百台演示 · 95 秒
+### 完整百台演示
+
+时长：95 秒。
 
 <!-- go2w-full-player:start -->
 
@@ -32,7 +34,17 @@ https://github.com/user-attachments/assets/f046f7fb-aca3-4a5d-81a9-5b35f72b31b3
 保留全部 1,000 个案例；1 倍仿真时间播放，每轮包含 0.5 秒起点停留、8 秒动作与 1 秒终点停留。
 视频基于正式原生 CPU PhysX 运行中记录的位姿和关节状态，离线使用原生 RTX 渲染；回放期间不继续求解物理，百台采用紧凑展示布局。
 
-[单台近景 · 9.5 秒](../assets/04-go2w/go2w-single.mp4) · [精简片 MP4 备用入口](../assets/04-go2w/go2w-showcase.mp4) · [完整片 MP4 备用入口](../assets/04-go2w/go2w-100x10.mp4)
+### 单台近景
+
+时长：9.5 秒，使用正式首轮的一台机器人轨迹。
+
+<!-- go2w-single-player:start -->
+
+https://github.com/user-attachments/assets/04c3bd48-fa5f-44ca-8460-83b27dc9e866
+
+<!-- go2w-single-player:end -->
+
+[精简片 MP4 备用入口](https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5) · [完整片 MP4 备用入口](../assets/04-go2w/go2w-100x10.mp4) · [单台 MP4 备用入口](../assets/04-go2w/go2w-single.mp4)
 
 ## 实际完成的验证
 

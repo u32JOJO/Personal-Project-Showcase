@@ -28,7 +28,7 @@
 
 **100 台机器人同时运行 × 10 轮，1,000 个不同历史侧躺初态中，997 次终点稳定恢复。**
 
-[![Go2W 单台恢复近景，点击查看精简演示](assets/04-go2w/cover.png)](https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5)
+[![Go2W 单台恢复近景，点击进入演示页](assets/04-go2w/cover.png)](projects/04-go2w-simulation.md#先看演示)
 
 <!-- go2w-showcase-player:start -->
 
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
 
 <!-- go2w-showcase-player:end -->
 
-[项目介绍与测试边界](projects/04-go2w-simulation.md) · [公开版报告 PDF](docs/go2w-public-report.pdf) · [完整百台 10 轮视频 · 95 秒](assets/04-go2w/go2w-100x10.mp4)
+[项目介绍与测试边界](projects/04-go2w-simulation.md) · [公开版报告 PDF](docs/go2w-public-report.pdf) · [完整百台 10 轮视频 · 95 秒](projects/04-go2w-simulation.md#完整百台演示)
 
 在个人电脑上完成 Windows 原生 Isaac CPU PhysX 仿真复现，先做 1/4/16 实例配对回归，再扩展到 100 实例批量评估。
 本次采用**冻结左右侧 teacher、零残差、无随机外力**；3 个案例未满足终点稳定保持要求，六类风险标志均未触发。
