@@ -24,6 +24,26 @@
 
 ---
 
+## Go2W 仿真演示
+
+**100 台机器人同时运行 × 10 轮，1,000 个不同历史侧躺初态中，997 次终点稳定恢复。**
+
+[![Go2W 单台恢复近景，点击查看精简演示](assets/04-go2w/cover.png)](https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5)
+
+<!-- go2w-showcase-player:start -->
+
+https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
+
+<!-- go2w-showcase-player:end -->
+
+[项目介绍与测试边界](projects/04-go2w-simulation.md) · [公开版报告 PDF](docs/go2w-public-report.pdf) · [完整百台 10 轮视频 · 95 秒](assets/04-go2w/go2w-100x10.mp4)
+
+在个人电脑上完成 Windows 原生 Isaac CPU PhysX 仿真复现，先做 1/4/16 实例配对回归，再扩展到 100 实例批量评估。
+本次采用**冻结左右侧 teacher、零残差、无随机外力**；3 个案例未满足终点稳定保持要求，六类风险标志均未触发。
+视频为真实轨迹离线回放；自然跌落探索另行标注。本次未完整复现最新 DAgger15，不能据此推断真机或任意跌倒恢复能力。
+
+---
+
 ## 项目总览
 
 | # | 项目 | 类型 | 核心技术 | 周期 |
@@ -37,12 +57,15 @@
 ## 💼 在职项目概要
 
 以下为在职期间参与的项目。**因保密要求，本仓库不展开架构细节、源码与内部资料**，
-仅列出技术关键词与可公开指标，细节可在面试中交流。
+主要列出技术关键词与可公开指标，细节可在面试中交流。
+Go2W 另外提供本人在个人电脑上完成的[仿真画面与汇总评估](projects/04-go2w-simulation.md)，不含企业项目实现及训练资料。
 
 | 项目 | 技术关键词 | 可公开指标 |
 |:--|:--|:--|
 | **双臂轮式机器人控制系统** | CAN 总线批量收发、多设备并发调度、ROS2 Humble、MoveIt2、ros2_control、SocketCAN、视觉抓取与坐标变换 | 20+ 台电机单周期查询 **300 ms → 4.22 ms**；控制频率 **3 Hz → 237 Hz**；实机轨迹执行效率 **99.5%** |
 | **Unitree Go2W 轮足机器人安全恢复系统** | 强化学习训练与部署、56 维可部署观测、fail-closed 安全状态机、CycloneDDS、动态故障注入、真机只读影子推理 | 仿真链路 **499.898 Hz**、p99 间隔 3.182 ms；真机约 **499.988 Hz** LowState 只读采集；电机输出门未打开 |
+
+以上通信链路指标与本次并行物理评估是不同测试。本次 **100 实例场景实时因子为 0.902×**，不以约 500 Hz 的消息频率表示百台物理仿真的运行速度。
 
 ---
 
@@ -146,10 +169,13 @@ Personal-Project-Showcase/
 ├── projects/                     # 项目详细文档
 │   ├── 01-logistics-robot.md     # 物流搬运复合机器人
 │   ├── 02-ai-glasses.md          # 智能 AI 眼镜
-│   └── 03-hplayer.md             # hplayer 播放器移植与优化
-├── assets/                       # 演示截图 / 动图
+│   ├── 03-hplayer.md             # hplayer 播放器移植与优化
+│   └── 04-go2w-simulation.md     # Go2W 公开仿真演示与评估范围
+├── assets/                       # 演示截图 / 动图 / 公开仿真视频
+│   ├── 04-go2w/                  # Go2W 视频、截图与汇总数据
 │   └── README.md                 # 素材放置说明
 └── docs/
+    ├── go2w-public-report.pdf     # Go2W 仿真展示报告（公开版）
     └── DISCLAIMER.md             # 内容合规与脱敏说明
 ```
 
@@ -157,7 +183,7 @@ Personal-Project-Showcase/
 
 ## 关于演示素材
 
-`assets/` 目录用于存放各项目的演示截图与动图。素材的组织与命名规范见
+`assets/` 目录用于存放各项目的演示截图、动图与公开仿真视频。素材的组织与命名规范见
 [assets/README.md](assets/README.md)。
 
 各项目文档中的架构图与流程图均使用 **Mermaid** 编写，GitHub 会原生渲染，
@@ -175,7 +201,7 @@ Personal-Project-Showcase/
 ## 说明
 
 - 本仓库**仅包含可公开的个人与团队项目文档**，企业项目的架构细节与源码不予公开，
-  仅在「在职项目概要」中列出技术关键词与可公开指标。
+  在「在职项目概要」中列出技术关键词与可公开指标；Go2W 补充个人电脑上的仿真画面和汇总评估结果。
 - 所有技术数字均来自实际测试或项目文档，可复现、可讲解；
   涉及多团队贡献的指标均已标注归属。
 - 完整合规说明见 [docs/DISCLAIMER.md](docs/DISCLAIMER.md)。

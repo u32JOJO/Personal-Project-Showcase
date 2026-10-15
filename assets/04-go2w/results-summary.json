@@ -1,0 +1,62 @@
+{
+  "evaluated_on": "2026-10-15",
+  "published_on": "2026-10-16",
+  "platform": "Windows native Isaac Sim 5.1 / Isaac Lab 2.3.2 / CPU PhysX",
+  "scope": "Historical route-eligible side-lying states; fixed left/right teacher; zero residual; no external random force or domain randomization",
+  "formal": {
+    "num_envs": 100,
+    "rounds": 10,
+    "episodes": 1000,
+    "safe_success": 997,
+    "risk_episodes": 0,
+    "risk_flags": {
+      "unsafe_back": 0,
+      "forbidden_top": 0,
+      "front_wheel_over": 0,
+      "joint_limit": 0,
+      "workspace_hard": 0,
+      "nonfinite": 0
+    },
+    "timeouts": 3,
+    "simulation_recording_wall_seconds": 88.64565250000669,
+    "whole_process_seconds": 99.82322690000001,
+    "cohort_realtime_factor": 0.9024695260717266
+  },
+  "paired_regression": {
+    "cases": 16,
+    "parallel_counts": [
+      1,
+      4,
+      16
+    ],
+    "outcomes_and_risk_flags_equal": true,
+    "wall_seconds": [
+      64.13665219999166,
+      16.69875409999804,
+      5.129364299998997
+    ]
+  },
+  "terminal_misses": {
+    "episodes": 3,
+    "last_consecutive_qualifying_steps": [
+      22,
+      14,
+      1
+    ],
+    "required_steps": 25
+  },
+  "natural_fall_exploration": {
+    "platform": "MuJoCo",
+    "episodes": 16,
+    "success": 0,
+    "rejected": 15,
+    "timeout": 1
+  },
+  "limits": [
+    "Not a new blind distribution",
+    "Not complete DAgger15 reproduction",
+    "No real-robot recovery conclusion",
+    "No training source, controller weights, teacher actions or raw state bank published"
+  ],
+  "video_method": "Offline replay of recorded native PhysX poses; physics does not advance during replay; compact visual layout"
+}

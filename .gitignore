@@ -46,6 +46,10 @@ temp/
 *.avi
 *.mov
 *.mkv
+# Explicitly reviewed public Go2W simulation exports only.
+!assets/04-go2w/go2w-showcase.mp4
+!assets/04-go2w/go2w-100x10.mp4
+!assets/04-go2w/go2w-single.mp4
 # 注意：截图与 GIF 建议保留在 assets/ 下，单个文件不超过 5 MB
 # *.png
 # *.jpg
