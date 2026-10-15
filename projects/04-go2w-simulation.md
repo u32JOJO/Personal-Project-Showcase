@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/04c3bd48-fa5f-44ca-8460-83b27dc9e866
 
 <!-- go2w-single-player:end -->
 
-[精简片 MP4 备用入口](https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5) · [完整片 MP4 备用入口](../assets/04-go2w/go2w-100x10.mp4) · [单台 MP4 备用入口](../assets/04-go2w/go2w-single.mp4)
+[精简片 MP4 备用入口](../assets/04-go2w/go2w-showcase.mp4) · [完整片 MP4 备用入口](../assets/04-go2w/go2w-100x10.mp4) · [单台 MP4 备用入口](../assets/04-go2w/go2w-single.mp4)
 
 ## 实际完成的验证
 
