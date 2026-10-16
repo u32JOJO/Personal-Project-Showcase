@@ -32,7 +32,7 @@
 
 <!-- go2w-showcase-player:start -->
 
-https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
+https://github.com/user-attachments/assets/bf37c138-6a79-4142-97a5-4425c52879b8
 
 <!-- go2w-showcase-player:end -->
 

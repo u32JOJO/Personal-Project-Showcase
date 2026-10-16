@@ -15,7 +15,7 @@
 
 <!-- go2w-showcase-player:start -->
 
-https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
+https://github.com/user-attachments/assets/bf37c138-6a79-4142-97a5-4425c52879b8
 
 <!-- go2w-showcase-player:end -->
 
@@ -27,12 +27,13 @@ https://github.com/user-attachments/assets/25f58f79-2612-4a25-b102-370e1526e4e5
 
 <!-- go2w-full-player:start -->
 
-https://github.com/user-attachments/assets/f046f7fb-aca3-4a5d-81a9-5b35f72b31b3
+https://github.com/user-attachments/assets/4a142ce4-21b2-4205-9c22-3c6b8a2f91eb
 
 <!-- go2w-full-player:end -->
 
 保留全部 1,000 个案例；1 倍仿真时间播放，每轮包含 0.5 秒起点停留、8 秒动作与 1 秒终点停留。
 视频基于正式原生 CPU PhysX 运行中记录的位姿和关节状态，离线使用原生 RTX 渲染；回放期间不继续求解物理，百台采用紧凑展示布局。
+画面统一采用深蓝棋盘格地面，便于辨认机器人姿态、地面接触与位移；本次视觉更新使用同一批已记录轨迹。
 
 ### 单台近景
 
@@ -40,7 +41,7 @@ https://github.com/user-attachments/assets/f046f7fb-aca3-4a5d-81a9-5b35f72b31b3
 
 <!-- go2w-single-player:start -->
 
-https://github.com/user-attachments/assets/04c3bd48-fa5f-44ca-8460-83b27dc9e866
+https://github.com/user-attachments/assets/32c64075-7b8c-4c67-9a45-b07fee2a2ece
 
 <!-- go2w-single-player:end -->
 

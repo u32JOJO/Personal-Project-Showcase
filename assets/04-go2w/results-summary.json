@@ -58,5 +58,24 @@
     "No real-robot recovery conclusion",
     "No training source, controller weights, teacher actions or raw state bank published"
   ],
-  "video_method": "Offline replay of recorded native PhysX poses; physics does not advance during replay; compact visual layout"
+  "video_method": "Offline replay of recorded native PhysX poses; physics does not advance during replay; compact visual layout",
+  "video_appearance": {
+    "style": "dark blue checkerboard",
+    "tile_size_m": 0.5,
+    "side_length_m": 100.0,
+    "colors_linear_rgb": [
+      [
+        0.008,
+        0.022,
+        0.04
+      ],
+      [
+        0.018,
+        0.046,
+        0.075
+      ]
+    ],
+    "roughness": 0.42,
+    "visual_only": true
+  }
 }
